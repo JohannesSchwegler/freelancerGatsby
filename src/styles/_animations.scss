@@ -1,0 +1,6 @@
+[data-aos][data-aos][data-aos-easing=outexpo], body[data-aos-easing=outexpo] [data-aos] {
+    -webkit-transition-timing-function: cubic-bezier(.19,1,.22,1);
+    -moz-transition-timing-function: cubic-bezier(.19,1,.22,1);
+    -o-transition-timing-function: cubic-bezier(.19,1,.22,1);
+    transition-timing-function: cubic-bezier(.19,1,.22,1);
+}

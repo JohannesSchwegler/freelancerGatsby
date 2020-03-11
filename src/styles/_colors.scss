@@ -1,0 +1,46 @@
+$first: #ccd6f6;
+$second: rgb(136, 146, 176);
+$third: #2ad3c5;
+$forth: #0a192f;
+$fifth: rgb(96, 106, 134);
+$sixth: rgb(23, 42, 69);
+/*
+$first: #fff;
+$second: #8a94a7;
+$third: #0c83f4;
+$forth: #1d2026;
+$fifth: #fff;
+$sixth: #15181d;
+*/
+/*
+
+white
+$first: rgb(33, 37, 41);
+$second: #b1b1b1;
+$third: rgb(33, 37, 41);
+$forth: #ffffff;
+$fifth: rgb(96, 106, 134);
+$sixth: #d1d1d1;
+
+
+standard
+$first: #ccd6f6;
+$second: rgb(136, 146, 176);
+$third: rgb(100, 255, 218);
+$forth: #0a192f;
+$fifth: rgb(96, 106, 134);
+$sixth: rgb(23, 42, 69);
+/*
+*/
+
+.post {
+  color: #fff;
+  &__title {
+  }
+
+  &__link {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+}

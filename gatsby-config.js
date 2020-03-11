@@ -6,15 +6,18 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-smoothscroll`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `project`,
+        path: `${__dirname}/data`,
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp`, // Image optimization, used for different resolutions
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Bücher Reviews",
+    "description": "Projekt CS50",
+    "image": "./images/ent.jpg",
+    "technologies": ["Flask", "NES-CSS", "PostgreSQL"]
+  },
+  {
+    "id": 2,
+    "title": "InstaClone",
+    "description": "Projekt CS50",
+    "image": "./images/test.png",
+    "technologies": ["Django", "Dialogflow"]
+  },
+  {
+    "id": 3,
+    "title": "I`M ENTERTAINMENT",
+    "description": "Custom Theme für die Eventagentur I`M ENTERTAINMENT. Neber der technischen Umsetzung wurde auch das Design der Seite erstellt. Highlight der Seite ist die Herosection, welche der Seite durch den Parallax-Effekte einen besonderen Touch verleiht.",
+    "image": "./images/cloudchat.png",
+    "technologies": ["Wordpress", "Bootstrap", "GSAP", "Skrollr"]
+  }
+]
